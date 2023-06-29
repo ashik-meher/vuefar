@@ -1,0 +1,56 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/**
+*Commented out for display block nav in wider screens
+*/
+/*
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+*/
+
+/*
+Own css
+*/
+
+.submit-button {
+  padding: 5px 10px;
+  background-color: skyblue;
+  border: 5px solid skyblue;
+  border-radius: 5px;
+}
+
+i{
+  padding: 0 5px;
+}
